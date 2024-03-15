@@ -20,12 +20,12 @@ public class Main {
                     System.out.println("Again?[Y/N]");
                     contYN = scan.nextLine();
                     if(contYN.equals("N")){
-                        cont = false;
+                        cont = true;
                     }
                 }
                 else{
                     System.out.println("Your word/phrase can't be smaller.");
-                    cont = false;
+                    cont = true;
                 }
             } while (!cont);
         } else{
